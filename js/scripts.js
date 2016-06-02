@@ -13,32 +13,32 @@ $(document).ready(function() {
     // var pref = $("select#pref").val();
 
     // if (pref === 'male') {
-      // if ('sign' === 'virgo' || 'cancer') {
-      //   $('#brad').show();
-      // }
-      // else if ('sign' === 'aries' || 'taurus') {
-      //   $('#george').show();
-      // }
-      // else if (sign === 'capricorn' || 'sagittarius') {
-      //   $('#taylor').show();
-      // }
-      // else if (sign === 'gemini' || 'scorpio') {
-      //   $('#steve').show();
-      // }
-      // else if (sign === 'libra' || 'leo') {
-      //   $('#louis').show();
-      // }
-      // else if (sign === 'auquarius' || 'pisces') {
-      //   $('#sean').show();
-      // }
+      if (sign === 'virgo' || sign === 'cancer') {
+        $('#brad').show();
+      }
+      else if (sign === 'airies' || sign === 'taurus') {
+        $('#george').show();
+      }
+      else if (sign === 'capricorn' || sign === 'sagittarius') {
+        $('#taylor').show();
+      }
+      else if (sign === 'gemini' || sign === 'scorpio') {
+        $('#steve').show();
+      }
+      else if (sign === 'libra' || sign === 'leo') {
+        $('#louis').show();
+      }
+      else if (sign === 'auquarius' || sign === 'pisces') {
+        $('#sean').show();
+      }
     // }
-
-    if (gender === 'male') {
-      $('#brad').show();
-    }
-    else if (gender === 'female') {
-      $('#george').show();
-    }
+    //
+    // if (gender === 'male') {
+    //   $('#brad').show();
+    // }
+    // else if (gender === 'female') {
+    //   $('#george').show();
+    // }
     else {
       console.log("wrong");
     }
