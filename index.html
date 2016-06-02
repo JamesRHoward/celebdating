@@ -6,48 +6,64 @@
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css" type=text/css>
-    <title>Voting</title>
+    <title>Celebrity Matchmaker</title>
   </head>
   <body>
-    <div class="container">
-      <form id="profile">
-        <div class="row">
-          <label for="name">Name</label>
-          <input id="name" type="text">
-          <label for="age">Age</label>
-          <input id="age" type="text">
-          <label for="gender">Gender</label>
-          <select id="gender">
-          <option value="female">Female</option>
-          <option value="male">Male</option>
-        </div>
-        <div class="row2">
-          <label for="favcolor">Favorite Color</label>
-          <input id="favcolor" type="text">
-          <label for="sign">Sign</label>
-          <input id="sign" type="text">
-          <option value="airies">Airies</option>
-          <option value="capicorn">Capicorn</option>
-          <option value="taurus">Taurus</option>
-          <option value="sagittarius">Sagittarius</option>
-          <option value="gemini">Gemini</option>
-          <option value="scorpio">Scorpio</option>
-          <option value="cancer">Cancer</option>
-          <option value="libra">Libra</option>
-          <option value="leo">Leo</option>
-          <option value="aquarius">Aquarius</option>
-          <option value="virgo">Virgo</option>
-          <option value="pisces">Pisces</option>
+    <form id="profile">
+      <!-- <div class="container"> -->
+        <!-- <div class="row">
+          <div class="col-lg-4 col-md-4"> -->
+            <label for="name">Name</label>
+            <input id="name" type="text">
+          <!-- </div>
+          <div class="col-lg-4 col-md-4"> -->
+            <label for="age">Age</label>
+            <input id="age" type="text" />
+          <!-- </div>
+          <div class="col-lg-4"> -->
+            <label for="gender">Gender</label>
+            <select id="gender">
+              <option value="female">Female</option>
+              <option value="male">Male</option>
+            </select>
+          <!-- </div> -->
 
+        <!-- </div> -->
+      <!-- <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-4"> -->
+            <!-- <label for="favcolor">Favorite Color</label>
+            <input id="favcolor" type="text" /> -->
+          <!-- </div>
+          <div class="col-lg-4 col-md-4"> -->
+            <label for="sign">Sign</label>
+            <select id="sign">
+              <option value="airies">Airies</option>
+              <option value="capicorn">Capicorn</option>
+              <option value="taurus">Taurus</option>
+              <option value="sagittarius">Sagittarius</option>
+              <option value="gemini">Gemini</option>
+              <option value="scorpio">Scorpio</option>
+              <option value="cancer">Cancer</option>
+              <option value="libra">Libra</option>
+              <option value="leo">Leo</option>
+              <option value="aquarius">Aquarius</option>
+              <option value="virgo">Virgo</option>
+              <option value="pisces">Pisces</option>
+            </select>
+          <!-- </div>
+        <div class="col-lg-4 col-md-4"> -->
           <label for="pref">Preference</label>
           <select id="pref">
-          <option value="female">Female</option>
-          <option value="male">Male</option>
-        </div>
+            <option value="female">Female</option>
+            <option value="male">Male</option>
+        <!-- </div>
+      </div> -->
         <!-- submit button -->
-        </select>
+          </select>
         <button type="submit" class="btn">Find Celebrity Match</button>
         <!-- end submit button -->
+      </div>
         <div id="hidden">
           <div class="container2">
             <img id="george" src="images/george.jpg" alt="image of george" />
